@@ -25,7 +25,8 @@ Initializing database
 
 
 ## Output
-'''
+
+
 bash-4.4$ mysql -u root -p
 Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -84,6 +85,5 @@ mysql> select * from user_details;
 +---------+----------+------------+-----------+--------+----------------------------------+--------+
 10 rows in set (0.00 sec)
 
-mysql> ls -l
 
-'''
+
