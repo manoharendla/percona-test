@@ -1,5 +1,5 @@
 # percona-test
-
+```
 [root@localhost mano]# docker build . -t mano-percona2
 Sending build context to Docker daemon  253.8MB
 Step 1/4 : FROM percona
@@ -21,12 +21,12 @@ Initializing database
 2022-05-30T18:01:57.013475Z 0 [Warning] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 9859e660-e042-11ec-9dc5-0242ac110004.
 2022-05-30T18:01:57.019372Z 0 [Warning] Gtid table is not ready to be used. Table 'mysql.gtid_executed' cannot be opened.
 2022-05-30T18:01:57.626030Z 1 [Warning] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
-
+```
 
 
 ## Output
 
-
+```
 bash-4.4$ mysql -u root -p
 Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
@@ -84,6 +84,6 @@ mysql> select * from user_details;
 |      10 | morgan65 | paul       | miller    | Female | a28dca31f5aa5792e1cefd1dfd098569 |      1 |
 +---------+----------+------------+-----------+--------+----------------------------------+--------+
 10 rows in set (0.00 sec)
-
+```
 
 
