@@ -1,0 +1,10 @@
+version: "3.3"
+
+services:
+  db:
+    build: .
+    image: percona-test
+    volumes:
+       - db-data:/var/lib/mysql
+volumes:
+  db-data:
