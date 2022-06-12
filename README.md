@@ -1,4 +1,11 @@
 # percona-test
+
+## Using docker compose
+docker-compose up
+
+
+## Using docker file
+
 ```
 [root@localhost mano]# docker build . -t mano-percona2
 Sending build context to Docker daemon  253.8MB
